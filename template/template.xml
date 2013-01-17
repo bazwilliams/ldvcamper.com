@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+<!-- Works for Firefox, Safari and Chrome -->
+<?xml-stylesheet type="application/xml" href="xsl/html5.xsl" ?>
+<!-- Needed for Internet Explorer -->
+<?xml-stylesheet type="text/xsl" href="xsl/html5.xsl" ?>
+
+<!DOCTYPE page SYSTEM "./page.dtd">
+
+<page background="images/interiors.jpg">
+
+&header;
+
+<section name="Page Title" id="main">
+<text>
+<flickr photoid="" group=""/>
+</text>
+</section>
+
+&footer;
+
+</page>
