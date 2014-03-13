@@ -14,7 +14,7 @@ html(lang='en')
       link(rel='stylesheet', href='/css/custom.css')
       script(type='text/javascript', src='/js/jquery-2.1.0.min.js')
       script(type='text/javascript', src='/js/bootstrap.min.js')
-  body(data-spy="scroll" data-target="nav")
+  body(data-spy="scroll" data-target="#nav")
     div.container
       div.row
         header.page-header
@@ -22,37 +22,60 @@ html(lang='en')
             a(href=locals.url)= locals.name
           small=locals.description
       div.row
-        section#why
-          !=contents['why.md'].html
-        section#planning
-          !=contents['planning.md'].html
-        section#electrics
-          !=contents['electrics.md'].html
-        section#gas
-          !=contents['gas.md'].html
-        section#insulation
-          !=contents['insulation.md'].html
-        section#noiseproofing
-          !=contents['noiseproofing.md'].html
-        section#interiors
-          !=contents['interiors.md'].html
-        section#wallboarding
-          !=contents['wallboarding.md'].html
-        section#skylights
-          !=contents['skylights.md'].html
-        section#windows
-          !=contents['windows.md'].html
-        section#water
-          !=contents['water.md'].html
-        section#where
-          !=contents['where.md'].html
-            div.map
-              iframe(width="600", height="450", src="https://maps.google.co.uk/maps/ms?msa=0&msid=203730394985552069348.0004cc90d43efae749635&ie=UTF8&t=m&z=4&output=embed")
-      nav(data-spy="affix")
-        a(href="#why")="Why"
-        a(href="#planning")="Planning"
-        a(href="#electrics")="Electrics"
-        a(href="#gas")="Gas"
+        div.col-md-10
+          section#why
+            !=contents['why.md'].html
+          section#planning
+            !=contents['planning.md'].html
+          section#electrics
+            !=contents['electrics.md'].html
+          section#gas
+            !=contents['gas.md'].html
+          section#insulation
+            !=contents['insulation.md'].html
+          section#noiseproofing
+            !=contents['noiseproofing.md'].html
+          section#interiors
+            !=contents['interiors.md'].html
+          section#wallboarding
+            !=contents['wallboarding.md'].html
+          section#skylights
+            !=contents['skylights.md'].html
+          section#windows
+            !=contents['windows.md'].html
+          section#water
+            !=contents['water.md'].html
+          section#where
+            !=contents['where.md'].html
+              div.map
+                iframe(width="600", height="450", src="https://maps.google.co.uk/maps/ms?msa=0&msid=203730394985552069348.0004cc90d43efae749635&ie=UTF8&t=m&z=4&output=embed")
+        div.col-md-2
+          div#nav(data-spy="affix")
+            ul.nav
+              li
+                a(href="#why")="Why"
+              li
+                a(href="#planning")="Planning"
+              li
+                a(href="#electrics")="Electrics"
+              li
+                a(href="#gas")="Gas"
+              li
+                a(href="#insulation")="Insulation"
+              li
+                a(href="#noiseproofing")="Noiseproofing"
+              li
+                a(href="#interiors")="Interiors"
+              li
+                a(href="#wallboarding")="Wallboarding"
+              li
+                a(href="#skylights")="Skylights"
+              li
+                a(href="#windows")="Windows"
+              li
+                a(href="#water")="Water"
+              li
+                a(href="#where")="Where"
     footer
       div.container
         div.row
