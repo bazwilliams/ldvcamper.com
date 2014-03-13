@@ -1,4 +1,4 @@
-ldvcamper.com
-=============
 
-Source files required to generate our LDV Campervan Conversion website (ldvcamper.com)
+# New LDV Campervan website
+
+Rewritten with the same content using Markdown for automated creation with Wintersmith. 

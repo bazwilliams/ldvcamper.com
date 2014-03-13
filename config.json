@@ -1,0 +1,23 @@
+{
+  "locals": {
+    "url": "http://localhost:18080",
+    "name": "Daisy the LDV Campervan Conversion",
+    "owner": "Barry John Williams",
+    "description": "Documenting our self build campervan!"
+  },
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}

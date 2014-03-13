@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Metrophobic|Syncopate);
+
+* {
+  font-family: 'Metrophobic', Verdana, sans-serif;
+}
+
+h1 > a {
+  font-family: 'Syncopate', Verdana, sans-serif;
+}
+
+div.urls > p >  a {
+  font-family: 'Metrophobic', Verdana, sans-serif;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 0;
+    width:225px;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+div.map > p {
+  color: rgba(128,128,128,1);
+  text-align: center;
+  vertical-align:middle;
+  line-height: 10px;
+  font-size: 10px;
+  overflow:hidden;
+  text-overflow: clip;
+  height: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+div.map {
+  margin: 10px;
+  padding: 6px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: rgba(50,50,50,1);
+  box-shadow: 2px 2px 5px #888;
+  text-align: center;
+  vertical-align:middle;
+  display: inline-block;
+  background: rgba(255,255,255,1);
+}
+div.map > iframe {
+  display:block;
+  position:relative;
+  overflow:hidden;
+  border: 0px;
+}

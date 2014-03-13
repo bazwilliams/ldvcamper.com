@@ -1,0 +1,56 @@
+doctype html
+html(lang='en')
+  head
+    block head
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+      meta(name='viewport', content='width=device-width')
+      title
+        block title
+          = locals.name
+      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
+      link(rel='stylesheet', href='/css/bootstrap.min.css')
+      link(rel='stylesheet', href='/css/custom.css')
+      script(type='text/javascript', src='/js/jquery-2.1.0.min.js')
+      script(type='text/javascript', src='/js/bootstrap.min.js')
+  body
+    div.container
+      div.row
+        header.page-header
+          h1
+            a(href=locals.url)= locals.name
+          small=locals.description
+      div.row
+        section#why
+          !=contents['why.md'].html
+        section#planning
+          !=contents['planning.md'].html
+        section#electrics
+          !=contents['electrics.md'].html
+        section#gas
+          !=contents['gas.md'].html
+        section#insulation
+          !=contents['insulation.md'].html
+        section#noiseproofing
+          !=contents['noiseproofing.md'].html
+        section#interiors
+          !=contents['interiors.md'].html
+        section#wallboarding
+          !=contents['wallboarding.md'].html
+        section#skylights
+          !=contents['skylights.md'].html
+        section#windows
+          !=contents['windows.md'].html
+        section#water
+          !=contents['water.md'].html
+        section#where
+          !=contents['where.md'].html
+            div.map
+              iframe(width="600", height="450", src="https://maps.google.co.uk/maps/ms?msa=0&msid=203730394985552069348.0004cc90d43efae749635&ie=UTF8&t=m&z=4&output=embed")
+    footer
+      div.container
+        div.row
+          section
+            p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
+              a(href='https://github.com/jnordberg/wintersmith') Wintersmith
