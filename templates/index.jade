@@ -14,7 +14,7 @@ html(lang='en')
       link(rel='stylesheet', href='/css/custom.css')
       script(type='text/javascript', src='/js/jquery-2.1.0.min.js')
       script(type='text/javascript', src='/js/bootstrap.min.js')
-  body
+  body(data-spy="scroll" data-target="nav")
     div.container
       div.row
         header.page-header
@@ -48,6 +48,11 @@ html(lang='en')
           !=contents['where.md'].html
             div.map
               iframe(width="600", height="450", src="https://maps.google.co.uk/maps/ms?msa=0&msid=203730394985552069348.0004cc90d43efae749635&ie=UTF8&t=m&z=4&output=embed")
+      nav(data-spy="affix")
+        a(href="#why")="Why"
+        a(href="#planning")="Planning"
+        a(href="#electrics")="Electrics"
+        a(href="#gas")="Gas"
     footer
       div.container
         div.row
