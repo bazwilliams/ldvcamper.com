@@ -1,3 +1,9 @@
+---
+id: 3
+section: Utilities
+title: Electrics
+---
+
 We connected the ZIG to the leisure and van battery using 35A capable cabling, installing a 30A fuse for each feed. The fridge was wired directly to the van battery with 15A capable wiring with a 15A fuse. We hid fridge wiring and cabling for the bathroom light and toilet flush behind the wallboard along with cabling for the ceiling light behind the ceiling board.
 
     <flickr photoid="872278971" group="electrics"/>

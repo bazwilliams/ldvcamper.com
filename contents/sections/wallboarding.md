@@ -1,4 +1,8 @@
-*** Wallboarding ***
+---
+id: 8
+section: Wallboarding
+title: Wallboarding
+---
 
 We then refitted the plywood originally fitted to the side walls and glued our new wallboard to this. Battens were installed near the roof so the wallboard could be fixed  at the roof. 
 

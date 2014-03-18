@@ -1,19 +1,18 @@
+- var sectionnames = _.chain(contents['sections']._.pages).sortBy(function (item) { return item.metadata['section'] + item.metadata['id'] }).map(function (item) { return item.metadata['section'] }).uniq().value();
+- var sectionId = function (item) { return item.metadata['id'] }
 doctype html
 html(lang='en')
   head
-    block head
-      meta(charset='utf-8')
-      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
-      meta(name='viewport', content='width=device-width')
-      title
-        block title
-          = locals.name
-      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
-      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
-      link(rel='stylesheet', href='/css/bootstrap.min.css')
-      link(rel='stylesheet', href='/css/custom.css')
-      script(type='text/javascript', src='/js/jquery-2.1.0.min.js')
-      script(type='text/javascript', src='/js/bootstrap.min.js')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width')
+    title= locals.name
+    link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/custom.css')
+    script(type='text/javascript', src='/js/jquery-2.1.0.min.js')
+    script(type='text/javascript', src='/js/bootstrap.min.js')
   body(data-spy="scroll" data-target="#nav")
     div.container
       div.row
@@ -23,59 +22,23 @@ html(lang='en')
           small=locals.description
       div.row
         div.col-md-10
-          section#why
-            !=contents['why.md'].html
-          section#planning
-            !=contents['planning.md'].html
-          section#electrics
-            !=contents['electrics.md'].html
-          section#gas
-            !=contents['gas.md'].html
-          section#insulation
-            !=contents['insulation.md'].html
-          section#noiseproofing
-            !=contents['noiseproofing.md'].html
-          section#interiors
-            !=contents['interiors.md'].html
-          section#wallboarding
-            !=contents['wallboarding.md'].html
-          section#skylights
-            !=contents['skylights.md'].html
-          section#windows
-            !=contents['windows.md'].html
-          section#water
-            !=contents['water.md'].html
-          section#where
-            !=contents['where.md'].html
-              div.map
-                iframe(width="600", height="450", src="https://maps.google.co.uk/maps/ms?msa=0&msid=203730394985552069348.0004cc90d43efae749635&ie=UTF8&t=m&z=4&output=embed")
+          for sectionname in sectionnames
+            - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
+            h2(id=sectionname)= sectionname
+              for item in _.chain(contents['sections']).filter(bySectionName).sortBy(sectionId).value()
+                h3(id=item.metadata['id'])= item.metadata['title']
+                section!= item.html
         div.col-md-2
           div#nav(data-spy="affix")
             ul.nav
-              li
-                a(href="#why")="Why"
-              li
-                a(href="#planning")="Planning"
-              li
-                a(href="#electrics")="Electrics"
-              li
-                a(href="#gas")="Gas"
-              li
-                a(href="#insulation")="Insulation"
-              li
-                a(href="#noiseproofing")="Noiseproofing"
-              li
-                a(href="#interiors")="Interiors"
-              li
-                a(href="#wallboarding")="Wallboarding"
-              li
-                a(href="#skylights")="Skylights"
-              li
-                a(href="#windows")="Windows"
-              li
-                a(href="#water")="Water"
-              li
-                a(href="#where")="Where"
+              for sectionname in sectionnames
+                - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
+                li
+                  a(href='#'+sectionname)= sectionname
+                  ul.nav
+                    for item in _.chain(contents['sections']).filter(bySectionName).sortBy(sectionId).value()
+                      li
+                        a(href='#'+item.metadata['id'])=item.metadata['title']
     footer
       div.container
         div.row

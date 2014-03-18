@@ -1,3 +1,8 @@
+---
+id: 7
+section: Interiors
+title: Interiors
+---
 
 We reused the furniture from the van, however it would never be a straight swap so modifications were required, the kitchen unit was altered so it was flush (originally the fridge, sink  and hob were recessed slightly. 
 
@@ -35,7 +40,7 @@ To begin with we took the bathroom door from the caravan and resized it to fit o
     <flickr photoid="2134548681" group="interiors"/>
     <flickr photoid="2135329156" group="interiors"/>
     <flickr photoid="2452316503" group="interiors"/>
-<url description="Q D Plastics" title="Q D Plastics">http://www.qdplastics.co.uk</url>
+    <url description="Q D Plastics" title="Q D Plastics">http://www.qdplastics.co.uk</url>
 
 From the design we had decided how many and what size cushions we require. Luckily the foam from the cushions in the donor caravan was still in good shape we reused it along with the wadding covering them. That way we only needed to make new covers, we purchased fabric from eBay and zips from a local haberdashery. Louise's mum then manufactured the cushion covers for us which we slipped over the cut down caravan cushions. Longer term we could replace the foam and reuse the cushion covers. 
 
@@ -122,18 +127,3 @@ New Bathroom
 New Kitchen Tap
 
     <flickr photoid="7311108940" group="newkitchen"/>
-
-***New Seats***
-We eventually decided to replace the two LDV seats with more comfortable swivelling seats. We had a good look around at captain chairs and swivel plates, but in the end settled for a pair removed from a Ford Galaxy which were in great condition and being sold at an excellent price. I did some research online and found that people were installing these on T4 bases, since a lot of people stated this I assumed they were right and sought out a pair of T4 bases. When I got them home, I realised I was wrong - the Ford Galaxy seats do not fit the T4 bases directly. The Galaxy seats are slightly narrower than the holes in the base and longer by about 25mm. Louise's Dad fabricated a new set of seat bases from these T4 bases to fit the Galaxy seats. Additionally, since the height of the T4 bases plus the height of the Galaxy seats would be too high, they were cut down. An angle was incorporated to simulate the driving position of the LDV seats we were replacing.
-
-    <flickr photoid="7657940926" group="swivelseats"/>
-    <flickr photoid="7657937624" group="swivelseats"/>
-    <flickr photoid="7657933230" group="swivelseats"/>
-
-We wanted to store the outdoor gear in the back of van accessible through the back doors, this would be the water filling and waste pipes; electric hookup cables; the gas bottles; camping chairs; tables and any other outdoor equipment. Also accessible from within the back doors is the cartridge toilet and flush access.
-
-    <flickr photoid="869515620" group="backdoors"/>
-    <flickr photoid="868672101" group="backdoors"/>
-    <flickr photoid="2452327373" group="backdoors"/>
-    <flickr photoid="2453156270" group="backdoors"/>
-    <flickr photoid="2452328989" group="backdoors"/>

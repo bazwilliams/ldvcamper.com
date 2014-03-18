@@ -1,4 +1,8 @@
-***Windows***
+---
+id: 10
+section: Windows
+title: Windows
+---
 
 Once the van was reinsured as a self build motorhome conversion we started cutting holes in the side of the van. We reused the rectangular windows from the Avondale donor caravan; the medium sized caravan galley window was to be installed in the dinette and the small caravan bathroom window to be installed on the side door. The caravan front window was too large and front side windows were oddly shaped to be useful, however we recovered many of the fittings as spare parts. The rubber seal for the windows was reused, but we purchased new white tape to fit inside the black seal.
 

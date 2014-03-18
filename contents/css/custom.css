@@ -18,15 +18,36 @@ nav {
 	
 nav.affix {
     position: fixed;
-    top: 0;
 }
 
-#nav .nav>.active>a, .bs-docs-sidebar .nav>.active:hover>a, .bs-docs-sidebar .nav>.active:focus>a {
-padding-left: 14px;
-font-weight: 700;
-color: #563d7c;
-background-color: transparent;
-border-left: 2px solid #563d7c;
+.nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#nav .nav>.active>a, #nav .nav>.active:hover>a, #nav .nav>.active:focus>a {
+  font-weight: 700;
+  color: #333;
+  background-color: transparent;
+  display: block;
+}
+
+#nav .nav > .active .nav {
+  display: block;
+  padding-left: 20px;
+}
+
+#nav .nav > .active > .nav > .active > a {
+  font-weight: 700;
+}
+
+#nav .nav .nav {
+  display: none;
+  padding-left: 20px;
+}
+
+#nav .nav > .active > .nav > a {
+  font-weight: 500;
 }
 
 body {

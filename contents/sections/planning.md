@@ -1,3 +1,9 @@
+---
+id: 2
+section: Planning
+title: Planning
+---
+
 ***Planning Daisy for V5 Alteration***
 
 Barry put his skills to work and planned out a couple of simple layouts on 3D Max (a CAD/3D Graphics application). Louise's dad cut out scale models of the van and caravan furniture. This allowed us to move the furniture around to see what was feasible. Both of these planning methods allowed us to rule out a number of layouts.
