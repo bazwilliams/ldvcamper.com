@@ -12,38 +12,19 @@ On looking at how we could convert our LDV we purchased the Haynes book "Build Y
 
 We were very lucky as we found our donor caravan within a week. It had everything we needed and all furniture could be placed in the van without much modification. We purchased an Avondale Leda Quantock 2 berth Caravan. The picture below shows Daisy pulling the donor caravan from Lochgilphead.
 
-	<flickr photoid="113085690" group="caravan"/>
+<div class="flickrslideshow" data-ids="[113085690]"/>
 
 The rest of this website shows the various planning stages, any problems we encountered and resolved and all important pictures documenting the build.
 
 We applied to have the V5 body type updated from 'Panel Van' to 'Motor Caravan' in May 2009, we were requested to present the van for inspection at the VOSA site in Bishopbriggs. We passed the inspection and the V5 was sent to us a few weeks later with an updated body type. 
 
-	<flickr photoid="3613875819" group="vosa"/>
+<div class="flickrslideshow" data-ids="[3613875819" group="vosa"/>
 	<flickr photoid="3613876889" group="vosa"/>
 
 The photographs below show the van in one of its incarnations of completeness - after all a camper conversion is never complete. Some of these photographs were used for valuation purposes by our self build motorhome insurer. 
 
-	<flickr photoid="113085690" group="exterior"/>
-	<flickr photoid="277725407" group="exterior"/>
-	<flickr photoid="465952912" group="exterior"/>
-	<flickr photoid="465979178" group="exterior"/>
-	<flickr photoid="875476924" group="exterior"/>
-	<flickr photoid="2414637524" group="exterior"/>
-	<flickr photoid="2414639068" group="exterior"/>
-	<flickr photoid="3846100731" group="exterior"/>
-	<flickr photoid="2414640016" group="exterior"/>
-	<flickr photoid="2413815655" group="exterior"/>
-	<flickr photoid="5850403190" group="exterior"/>
-	<flickr photoid="5850410124" group="exterior"/>
-	<flickr photoid="5849872137" group="exterior"/>
-	<flickr photoid="5031382834" group="exterior"/>
-	<flickr photoid="7639029608" group="exterior"/>
+<div class="flickrslideshow" data-ids="[113085690, 277725407, 465952912, 465979178, 875476924, 2414637524, 2414639068, 3846100731, 2414640016, 2413815655, 5850403190, 5850410124, 5849872137, 5031382834, 7639029608]"/>
 
 Now photographs of inside the van!
 
-	<flickr photoid="5849861171" group="inside"/>
-	<flickr photoid="5849863941" group="inside"/>
-	<flickr photoid="5849866563" group="inside"/>
-	<flickr photoid="5850422952" group="inside"/>
-	<flickr photoid="7174462011" group="inside"/>
-	<flickr photoid="7359691578" group="inside"/>
+<div class="flickrslideshow" data-ids="[5849861171, 5849863941, 5849866563, 5850422952, 7174462011, 7359691578]"/>
