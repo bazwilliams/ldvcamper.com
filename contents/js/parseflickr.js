@@ -16,7 +16,7 @@
 				nojsoncallback: 1
 			});
 		},
-		flickrImage = function (parent, id) {
+		addFlickrImage = function (parent, id) {
 			var el = $(imagethumbTemplate());
 			parent.append(el);
 			$.when(flickrJSON('getSizes', id)).then(function (sizeData) {
@@ -38,9 +38,9 @@
 		};
 
 	flickrelements.each(function () {
-		var el = $(this);
-		el.data('ids').forEach(function (id) {
-			flickrImage(el, id);
+		var parent = $(this);
+		parent.data('ids').forEach(function (id) {
+			addFlickrImage(parent, id);
 		});
 	});
 }(jQuery, _);
