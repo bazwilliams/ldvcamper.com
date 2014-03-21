@@ -119,7 +119,6 @@ p.imagetext {
   font-size: 8px;
   overflow:hidden;
   text-overflow: clip;
-  width: 75px;
   height: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -157,6 +156,9 @@ div.imagethumb > a:active {
 div.thumb {
   display:block;
   position:relative;
+}
+img.loading {
+  margin: 16px;
 }
 div.thumb::before {
   content:'';
