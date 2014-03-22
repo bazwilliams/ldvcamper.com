@@ -23,14 +23,15 @@ There is a minimum distance between gas burners on a hob and combustible materia
 <div class="flickrslideshow" data-ids="[2452312953,2452317455,2453150530]">
 </div>
 
+Here is the plan for the replacement bed, this was designed after 2 years usage of the previous (temporary) system. We specifically tackled the problematic and inconvenient features of the old style one.
 
+<div class="flickrslideshow" data-ids="[6870784953, 6869556157, 6869556457, 6869556783, 6869557041, 7728041870]">
+</div>
 
 New Bed
 
 <div class="flickrslideshow" data-ids="[5031430614,5031457648]">
 </div>
-
-
 
 New Kitchen Tap
 

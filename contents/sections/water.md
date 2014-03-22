@@ -3,7 +3,15 @@ section: Utilities
 title: Water
 ---
 
-***Installation***
+We wanted a hot water supply as well as cold, so took advantage of the carver heater extracted from the caravan. We used the 3D Max plans to decide the best size and position for the fresh and waste water tanks (to be ordered from C.A.K. tanks) and the route and length of water pipes. C.A.K. were very helpful as they added necessary outlets to the tanks for us and included all the necesary water pipe fittings and pipes in the order. The water tank was fitted with an attachment so it could be used with a submersible pump. 
+
+<div class="flickrslideshow" data-ids="[6872259095,6872258947,6872258773,6872258619]">
+</div>
+
+We originally wanted to use the supplementary side hatch on the van to access the water tank so it could be filled from outside.  But this never happened, there was not enough access through the narrow opening between the floor and top of the seat to make it worthwhile. 
+
+<div class="flickrslideshow" data-ids="[6869287661]">
+</div>
 
 The waste water tank was installed under the chassis, whilst we'd purchased a kit to do this and measured the tank to fit within chassis bars, a bracket was required to be which Louise's Dad manufactured for us. 
 

@@ -3,6 +3,13 @@ section: Utilities
 title: Electrics
 ---
 
+We did not put anywhere near enough thought into what we wanted in the van before we started wallboarding, as a result we ended up finding novel ways of hiding wires behind furniture and facings rather than behind the wallboards and ceiling boards like we should have. The following wiring diagram has evolved over time and given hindsight, should have been the first thing we did! 
+
+<div class="flickrslideshow" data-ids="[7425184558]">
+</div>
+
+We planned to use the ZIG CF2000 unit recovered from the caravan to distribute power to appliances and charge the leisure battery when driving by connecting the ZIG to the leisure battery and van battery. The fridge would be wired directly to the van battery. The only wiring we planned for was the battery connections; fridge (12V and 240V); bathroom light; toilet flush; a 12v socket at the kitchen; and a single light in the centre of the van. We calculated how much wiring was required for the submersible pump and microswitch cabling would be routed along side the cold water pipes where possible through the furniture and wallboards during construction. 
+
 We connected the ZIG to the leisure and van battery using 35A capable cabling, installing a 30A fuse for each feed. The fridge was wired directly to the van battery with 15A capable wiring with a 15A fuse. We hid fridge wiring and cabling for the bathroom light and toilet flush behind the wallboard along with cabling for the ceiling light behind the ceiling board.
 
 <div class="flickrslideshow" data-ids="[872278971, 1197184157, 1197207203]">
