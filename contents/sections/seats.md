@@ -1,5 +1,4 @@
 ---
-id: 71
 section: Interiors
 title: Seats
 ---

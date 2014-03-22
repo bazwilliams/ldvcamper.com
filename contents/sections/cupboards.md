@@ -1,5 +1,4 @@
 ---
-id: 73
 section: Interiors
 title: Overhead Cupboards
 ---

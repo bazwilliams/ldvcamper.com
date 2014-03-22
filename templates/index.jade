@@ -1,5 +1,6 @@
-- var sectionnames = _.chain(contents['sections']._.pages).sortBy(function (item) { return item.metadata['section'] + item.metadata['id'] }).map(function (item) { return item.metadata['section'] }).uniq().value();
-- var sectionId = function (item) { return item.metadata['id'] }
+- var sectionnames = _.chain(contents['sections']._.pages).sortBy(function (item) { return item.metadata['section'] }).map(function (item) { return item.metadata['section'] }).uniq().value();
+- var metadataTitle = function (item) { return item.metadata['title'] }
+- var articleId = function (item) { return (item.metadata['section'] + item.metadata['title']).replace(/\s/g, ''); }
 doctype html
 html(lang='en')
   head
@@ -25,9 +26,9 @@ html(lang='en')
         div.col-md-10
           for sectionname in sectionnames
             - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
-            h2(id=sectionname)= sectionname
-              for item in _.chain(contents['sections']).filter(bySectionName).sortBy(sectionId).value()
-                h3(id=item.metadata['id'])= item.metadata['title']
+            h2(id=sectionname.replace(/\s/g, ''))= sectionname
+              for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataTitle).value()
+                h3(id=articleId(item))= item.metadata['title']
                 section!= item.html
         div.col-md-2
           div#nav(data-spy="affix")
@@ -35,15 +36,17 @@ html(lang='en')
               for sectionname in sectionnames
                 - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
                 li
-                  a(href='#'+sectionname)= sectionname
+                  a(href='#'+sectionname.replace(/\s/g, ''))= sectionname
                   ul.nav
-                    for item in _.chain(contents['sections']).filter(bySectionName).sortBy(sectionId).value()
+                    for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataTitle).value()
                       li
-                        a(href='#'+item.metadata['id'])=item.metadata['title']
+                        a(href='#'+articleId(item))=item.metadata['title']
     footer
       div.container
         div.row
           section
             p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-              a(href='https://github.com/jnordberg/wintersmith') Wintersmith
+              a(href='https://github.com/jnordberg/wintersmith')= Wintersmith
+              &mdash; website source on&nbsp;
+              a(href='https://github.com/bazwilliams/ldvcamper.com')= Github
     script(type='text/javascript', src='/js/parseflickr.js')

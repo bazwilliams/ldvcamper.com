@@ -1,5 +1,4 @@
 ---
-id: 74
 section: Interiors
 title: Cushions
 ---

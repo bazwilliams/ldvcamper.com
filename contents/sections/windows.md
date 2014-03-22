@@ -1,5 +1,4 @@
 ---
-id: 10
 section: Panel Van Changes
 title: Windows
 ---

@@ -1,5 +1,4 @@
 ---
-id: 5
 section: Interiors
 title: Insulation
 ---

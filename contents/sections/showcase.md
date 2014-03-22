@@ -1,5 +1,4 @@
 ---
-id: 13
 section: Our Camper
 title: Showcase
 ---

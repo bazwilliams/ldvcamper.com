@@ -1,5 +1,4 @@
 ---
-id: 8
 section: Interiors
 title: Wallboarding
 ---

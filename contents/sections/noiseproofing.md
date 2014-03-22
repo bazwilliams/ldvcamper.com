@@ -1,5 +1,4 @@
 ---
-id: 6
 section: Interiors
 title: Noiseproofing
 ---

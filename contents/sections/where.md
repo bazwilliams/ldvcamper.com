@@ -1,5 +1,4 @@
 ---
-id: 12
 section: Our Camper
 title: Where
 ---

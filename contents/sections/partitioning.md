@@ -1,5 +1,4 @@
 ---
-id: 81
 section: Interiors
 title: Partioning
 ---

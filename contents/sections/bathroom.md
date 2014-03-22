@@ -1,5 +1,4 @@
 ---
-id: 75
 section: Interiors
 title: Bathroom
 ---

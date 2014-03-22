@@ -1,5 +1,4 @@
 ---
-id: 2
 section: Planning
 title: Planning
 ---

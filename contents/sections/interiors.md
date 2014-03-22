@@ -1,5 +1,4 @@
 ---
-id: 7
 section: Interiors
 title: Furniture Modification
 ---

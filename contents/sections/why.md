@@ -1,5 +1,4 @@
 ---
-id: 10
 section: Our Camper
 title: Why
 ---
