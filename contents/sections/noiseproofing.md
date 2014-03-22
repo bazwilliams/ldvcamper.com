@@ -1,6 +1,6 @@
 ---
 id: 6
-section: Insulation
+section: Interiors
 title: Noiseproofing
 ---
 

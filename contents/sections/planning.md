@@ -21,10 +21,24 @@ Barry then continued with the 3D max version by modeling the virtual van accurat
 <div class="flickrslideshow" data-ids="[6869286081, 6869288555]">
 </div>
 
-<video width="320" height="240" name="beddesignframe" description="Rendering of how the bed frame could work">
-</video>
-<video width="320" height="240" name="beddesignwithcushions" description="Rendering of how the cushions could fit">
-</video>
+<div class="media">
+	<div class="video">
+		<video controls="controls" width="320" height="240">
+			<source type="video/mp4" src="videos/beddesignframe.mp4">
+			<source type="video/ogg" src="videos/beddesignframe.ogv">
+			Your browser does not support the video tag.
+		</video>
+		<p>Rendering of how the bed frame could work</p>
+	</div>
+	<div class="video">
+		<video controls="controls" width="320" height="240">
+			<source type="video/mp4" src="videos/beddesignwithcushions.mp4">
+			<source type="video/ogg" src="videos/beddesignwithcushions.ogv">
+			Your browser does not support the video tag.
+		</video>
+		<p>Rendering of how the cushions could fit</p>
+	</div>
+</div>
 
 Louise's sister had some left over insulation from her garage conversion, so we kindly took it off of her hands. The rest of the insulation came from the caravan roof which conveniently was not glued in place. We used sheets of acoustic foam insulation purchased from a Leroy Merlin in Malaga for the roof and various door insulation.
 
@@ -44,8 +58,16 @@ We needed to use the van before deciding how to finish the bathroom door, so we 
 <div class="flickrslideshow" data-ids="[6869289155, 6869289299]">
 </div>
 
-<video width="320" height="240" name="slidingdoor" description="How the sliding door would look">
-</video>
+<div class="media">
+	<div class="video">
+		<video controls="controls" width="320" height="240">
+			<source type="video/mp4" src="videos/slidingdoor.mp4">
+			<source type="video/ogg" src="videos/slidingdoor.ogv">
+			Your browser does not support the video tag.
+		</video>
+		<p>How the sliding door would look</p>
+	</div>
+</div>
 
 There is a plastic shelf above the driver cab which currently houses the charging unit taken from the caravan, to the right of this unit we have installed white hardboard base and sides and the ceiling board curving to the front. This brightens up the overcab, storage area and will form a cupboard to store towels and blankets. This is ideal, because we have used the existing frame of the shelf for strength, but hidden it with nicer looking materials. Once finished, this gives a height measurement for the planned over-kitchen over-seat cupboards.
 

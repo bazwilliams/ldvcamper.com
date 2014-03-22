@@ -1,10 +1,8 @@
 ---
-id: 1
-section: Why
+id: 10
+section: Our Camper
 title: Why
 ---
-
-***Why we wanted a conversion***
 
 We purchased a townhouse in the costa del sol a few years ago. The only problem was how to transport our boxer dog to and from Cadiz. Both of us did not like the idea of putting Bruno in a plane or leaving him in a car on a boat. We thought about purchasing a motorhome, but we were put off with the expense of them. Louise's dad suggested a camper conversion, they had purchased an LDV 400 Convoy to take their furniture to and from their new house in Malaga. We purchased it off of them and started to plan out Daisy.
 
@@ -27,7 +25,3 @@ The photographs below show the van in one of its incarnations of completeness - 
 <div class="flickrslideshow" data-ids="[113085690,277725407,465952912,465979178,875476924,2414637524,2414639068,3846100731,2414640016,2413815655,5850403190,5850410124,5849872137,5031382834,7639029608]">
 </div>
 
-Now photographs of inside the van!
-
-<div class="flickrslideshow" data-ids="[5849861171,5849863941,5849866563,5850422952,7174462011,7359691578]">
-</div>

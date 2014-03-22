@@ -1,6 +1,6 @@
 ---
 id: 5
-section: Insulation
+section: Interiors
 title: Insulation
 ---
 
