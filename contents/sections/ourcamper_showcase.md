@@ -1,4 +1,5 @@
 ---
+order: 4
 section: Our Camper
 title: Showcase
 ---

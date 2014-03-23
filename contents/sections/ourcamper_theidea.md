@@ -1,4 +1,5 @@
 ---
+order: 2
 section: Our Camper
 title: The Idea
 ---

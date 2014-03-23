@@ -1,4 +1,5 @@
 ---
+order: 3
 section: Our Camper
 title: Skip to End
 ---

@@ -1,5 +1,6 @@
 - var sectionnames = page.metadata['sectionnames']
 - var metadataTitle = function (item) { return item.metadata['title'] }
+- var metadataOrder = function (item) { return item.metadata['order'] }
 - var articleId = function (item) { return (item.metadata['section'] + item.metadata['title']).replace(/\s/g, ''); }
 doctype html
 html(lang='en')
@@ -24,7 +25,7 @@ html(lang='en')
           for sectionname in sectionnames
             - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
             h2(id=sectionname.replace(/\s/g, ''))= sectionname
-              for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataTitle).value()
+              for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
                 h3(id=articleId(item))= item.metadata['title']
                 section!= item.html
         div.col-md-2
@@ -35,7 +36,7 @@ html(lang='en')
                 li
                   a(href='#'+sectionname.replace(/\s/g, ''))= sectionname
                   ul.nav
-                    for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataTitle).value()
+                    for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
                       li
                         a(href='#'+articleId(item))=item.metadata['title']
     footer

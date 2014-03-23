@@ -1,4 +1,5 @@
 ---
+order: 1
 section: Our Camper
 title: Why
 ---
