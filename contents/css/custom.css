@@ -1,23 +1,24 @@
-@import url(http://fonts.googleapis.com/css?family=Metrophobic|Syncopate);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300);
 
+/*@import url(http://fonts.googleapis.com/css?family=Metrophobic|Syncopate);*/
 * {
-  font-family: 'Metrophobic', Verdana, sans-serif;
+  font-family: 'Anonymous Pro', Verdana, sans-serif;
 }
 
 h1 > a {
-  font-family: 'Syncopate', Verdana, sans-serif;
+  font-family: 'Merriweather', Verdana, sans-serif;
 }
 
 div.urls > p >  a {
-  font-family: 'Metrophobic', Verdana, sans-serif;
+  font-family: 'Anonymous+Pro', Verdana, sans-serif;
 }
 
 nav {
 	background: white
 }
 	
-nav.affix {
-    position: fixed;
+#nav.affix {
+    top: 20px;
 }
 
 .nav > li > a {

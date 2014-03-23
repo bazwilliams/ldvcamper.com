@@ -1,3 +1,4 @@
 {
-  "template": "index.jade"
+  "template": "index.jade",
+  "sectionnames": ["Our Camper", "Panel Van Changes", "Interiors", "Utilities"]
 }
