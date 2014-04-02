@@ -17,14 +17,22 @@ We needed to use the van before deciding how to finish the bathroom door, so we 
 <div class="flickrslideshow" data-ids="[6869289155, 6869289299]">
 </div>
 
-<div class="media">
-	<div class="video">
-		<video controls="controls" width="320" height="240">
-			<source type="video/mp4" src="videos/slidingdoor.mp4">
-			<source type="video/ogg" src="videos/slidingdoor.ogv">
-			Your browser does not support the video tag.
-		</video>
-		<p>How the sliding door would look</p>
+<div class="row">
+	<div class="col-md-12">
+	<div class="col-md-6">
+		<div class="thumbnail">
+			<div class="clearfix">
+				<video controls="controls" class="col-md-12 video">
+					<source type="video/mp4" src="videos/slidingdoor.mp4">
+					<source type="video/ogg" src="videos/slidingdoor.ogv">
+				Your browser does not support the video tag.
+			</video>
+			</div>
+			<div class="caption">
+			<small>How the sliding door would look</small>
+			</div>
+		</div>
+	</div>
 	</div>
 </div>
 

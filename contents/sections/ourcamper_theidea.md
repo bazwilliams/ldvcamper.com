@@ -19,21 +19,35 @@ Barry then continued with the 3D max version by modeling the virtual van accurat
 <div class="flickrslideshow" data-ids="[6869286081, 6869288555]">
 </div>
 
-<div class="media">
-	<div class="video">
-		<video controls="controls" width="320" height="240">
-			<source type="video/mp4" src="videos/beddesignframe.mp4">
-			<source type="video/ogg" src="videos/beddesignframe.ogv">
-			Your browser does not support the video tag.
-		</video>
-		<p>Rendering of how the bed frame could work</p>
+<div class="row">
+	<div class="col-md-12">
+	<div class="col-md-6">
+		<div class="thumbnail">
+			<div class="clearfix">
+			<video controls="controls" class="col-md-12 video">
+				<source type="video/mp4" src="videos/beddesignframe.mp4">
+				<source type="video/ogg" src="videos/beddesignframe.ogv">
+				Your browser does not support the video tag.
+			</video>
+			</div>
+			<div class="caption">
+			<small>Rendering of how the bed frame could work</small>
+			</div>
+		</div>
 	</div>
-	<div class="video">
-		<video controls="controls" width="320" height="240">
-			<source type="video/mp4" src="videos/beddesignwithcushions.mp4">
-			<source type="video/ogg" src="videos/beddesignwithcushions.ogv">
-			Your browser does not support the video tag.
-		</video>
-		<p>Rendering of how the cushions could fit</p>
+	<div class="col-md-6">
+		<div class="thumbnail">
+			<div class="clearfix">
+			<video controls="controls" class="col-md-12 video">
+				<source type="video/mp4" src="videos/beddesignwithcushions.mp4">
+				<source type="video/ogg" src="videos/beddesignwithcushions.ogv">
+				Your browser does not support the video tag.
+			</video>
+			</div>
+			<div class="caption">
+			<small>Rendering of how the cushions could fit</small>
+			</div>
+		</div>
+	</div>
 	</div>
 </div>
