@@ -4,7 +4,7 @@
 		imagethumbTemplate = function (src, description, title) {
 			return '<div class="col-xs-4 col-md-2">' +
 				   '<div class="thumbnail loading">'+
-				   '<img src="" alt="">'+
+				   '<img src="../images/FFFFFF-0.png" width=150 height=150 alt="">'+
 				   '</div>'+
 				   '</div>';
 		},
@@ -28,16 +28,15 @@
 			$.when(flickrJSON('getSizes', flickrId)).then(function (sizeData) {
 				var thumb = _.where(sizeData.sizes.size, { "label":"Large Square" } )[0],
 					standard = _.where(sizeData.sizes.size, { "label":"Medium"} )[0];
-				el.find('img').attr('src', '');
-				el.find('.loading').removeClass('loading');
 				el.find('img').attr('src', thumb.source);
+				el.find('.loading').removeClass('loading');
 			});
 			$.when(flickrJSON('getInfo', flickrId)).then(function (infoData) {
 				var title = infoData.photo.title._content,
 					description = infoData.photo.description._content,
 					url = _.where(infoData.photo.urls.url, { "type":"photopage" } )[0]._content;
-				// el.find('.imagetext').text(title);
-				el.find('img').attr('alt', title);
+				el.find('img').attr('alt', description);
+				el.find('img').attr('title', title);
 			});
 		};
 	flickrelements.each(function () {

@@ -32,3 +32,5 @@ After a few years we decided to replace the bathroom from the Avondale suite and
 
 <div class="flickrslideshow" data-ids="[7311105220,7311106914]">
 </div>
+
+A year later we then added a water gauge to the tank through the same hole the original sub pump was fitted, we measured the depth of the tank and cut the three metal sensor prongs to match 3/4 full, 1/2 full and 1/4 full screwed it into the widened hole and sikaflexed it in place. 
