@@ -11,9 +11,12 @@ html(lang='en')
     title= locals.name
     link(rel='stylesheet', href='/css/bootstrap.min.css')
     link(rel='stylesheet', href='/css/custom.css')
+    link(rel="stylesheet", href="/fancybox/jquery.fancybox.css", type="text/css", media="screen")
     script(type='text/javascript', src='/js/jquery-2.1.0.min.js')
     script(type='text/javascript', src='/js/underscore-min.js')
     script(type='text/javascript', src='/js/bootstrap.min.js')
+    script(type='text/javascript', src='/fancybox/jquery.fancybox.pack.js')
+
   body(data-spy="scroll" data-target="#nav")
     div.jumbotron
       div.container
@@ -44,7 +47,11 @@ html(lang='en')
         div.row
           section
             p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-              a(href='https://github.com/jnordberg/wintersmith')= Wintersmith
+              a(href='https://github.com/jnordberg/wintersmith') Wintersmith 
               &mdash; website source on&nbsp;
-              a(href='https://github.com/bazwilliams/ldvcamper.com')= Github
+              a(href='https://github.com/bazwilliams/ldvcamper.com') Github
     script(type='text/javascript', src='/js/parseflickr.js')
+    script(type='text/javascript').
+      $(document).ready(function() {
+        $(".fancybox").fancybox();
+      });
