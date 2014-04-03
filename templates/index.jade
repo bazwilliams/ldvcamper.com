@@ -9,19 +9,58 @@ html(lang='en')
     meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
     meta(name='viewport', content='width=device-width')
     title= locals.name
-    link(rel='stylesheet', href='/css/bootstrap.min.css')
-    link(rel='stylesheet', href='/css/custom.css')
-    link(rel="stylesheet", href="/fancybox/jquery.fancybox.css", type="text/css", media="screen")
-    script(type='text/javascript', src='/js/jquery-2.1.0.min.js')
-    script(type='text/javascript', src='/js/underscore-min.js')
-    script(type='text/javascript', src='/js/bootstrap.min.js')
-    script(type='text/javascript', src='/fancybox/jquery.fancybox.pack.js')
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    link(rel='stylesheet', href='css/custom.css')
+    link(rel="stylesheet", href="fancybox/jquery.fancybox.css", type="text/css", media="screen")
+    script(type='text/javascript', src='js/jquery-2.1.0.min.js')
+    script(type='text/javascript', src='js/underscore-min.js')
+    script(type='text/javascript', src='js/bootstrap.min.js')
+    script(type='text/javascript', src='fancybox/jquery.fancybox.pack.js')
 
   body(data-spy="scroll" data-target="#nav")
-    div.jumbotron
-      div.container
-        h1= locals.name
-        p=locals.description
+        div.carousel.slide#jumbotron(data-ride="carousel")
+          div.carousel-title
+            h1=locals.name
+            p=locals.description
+          ol.carousel-indicators
+            li.active(data-target="#jumbotron" data-slide-to="0")
+            li(data-target="#jumbotron" data-slide-to="1")
+            li(data-target="#jumbotron" data-slide-to="2")
+            li(data-target="#jumbotron" data-slide-to="3")
+            li(data-target="#jumbotron" data-slide-to="4")
+            li(data-target="#jumbotron" data-slide-to="5")
+            li(data-target="#jumbotron" data-slide-to="6")
+            li(data-target="#jumbotron" data-slide-to="7")
+            li(data-target="#jumbotron" data-slide-to="8")
+            li(data-target="#jumbotron" data-slide-to="9")
+            li(data-target="#jumbotron" data-slide-to="10")
+          div.carousel-inner
+            div.item.active
+              img(src="images/jumbotron/ldvcamper-jumbotron-12.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-2.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-10.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-3.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-4.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-5.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-6.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-7.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-8.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-9.jpg")
+            div.item
+              img(src="images/jumbotron/ldvcamper-jumbotron-11.jpg")
+          a.left.carousel-control(href="#jumbotron", data-slide="prev")
+            span.glyphicon.glyphicon-chevron-left
+          a.right.carousel-control(href="#jumbotron", data-slide="next")
+            span.glyphicon.glyphicon-chevron-right
     div.container
       div.row
         div.col-md-10
@@ -32,7 +71,7 @@ html(lang='en')
                 h3(id=articleId(item))= item.metadata['title']
                 section!= item.html
         div.col-md-2
-          div#nav(data-spy="affix", data-offset-top="200")
+          div#nav(data-spy="affix", data-offset-top="500")
             ul.nav
               for sectionname in sectionnames
                 - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
@@ -50,8 +89,8 @@ html(lang='en')
               a(href='https://github.com/jnordberg/wintersmith') Wintersmith 
               &mdash; website source on&nbsp;
               a(href='https://github.com/bazwilliams/ldvcamper.com') Github
-    script(type='text/javascript', src='/js/parseflickr.js')
-    script(type='text/javascript').
-      $(document).ready(function() {
-        $(".fancybox").fancybox();
-      });
+  script(type='text/javascript', src='js/parseflickr.js')
+  script(type='text/javascript').
+    $(document).ready(function() {
+      $(".fancybox").fancybox();
+    });

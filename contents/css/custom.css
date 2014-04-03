@@ -69,3 +69,22 @@ div.thumbnail > iframe {
 video.video {
   padding: 0;
 }
+.jumbotron {
+  background-image:url('../images/jumbotron/ldvcamper-jumbotron-12.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 600px;
+  color: #white;
+  text-shadow: #444444 0.3em 0.3em 0.3em;
+}
+.carousel-title {
+  color: white;
+  text-shadow: #444444 0.3em 0.3em 0.3em;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 15;
+}
+.carousel-title > h1 {
+  font-size: 63px;
+}
