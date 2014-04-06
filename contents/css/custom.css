@@ -85,6 +85,22 @@ video.video {
   left: 50px;
   z-index: 15;
 }
-.carousel-title > h1 {
-  font-size: 63px;
+.carousel-inner img {
+  width: 100%;
+}
+@media screen and (min-width: 992px) {
+  .carousel-title > h1,
+  .carousel-title > .h1 {
+    font-size: 63px;
+  }
+}
+.sideadvert {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.sectionadvert {
+  text-align: center;
+}
+.sidebar {
+  margin-top: 20px;
 }

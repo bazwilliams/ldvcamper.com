@@ -16,7 +16,6 @@ html(lang='en')
     script(type='text/javascript', src='js/underscore-min.js')
     script(type='text/javascript', src='js/bootstrap.min.js')
     script(type='text/javascript', src='fancybox/jquery.fancybox.pack.js')
-
   body(data-spy="scroll" data-target="#nav")
         div.carousel.slide#jumbotron(data-ride="carousel")
           div.carousel-title
@@ -70,8 +69,14 @@ html(lang='en')
               for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
                 h3(id=articleId(item))= item.metadata['title']
                 section!= item.html
-        div.col-md-2
-          div#nav(data-spy="affix", data-offset-top="500")
+            div.row
+              div.col-md-12.sectionadvert
+                script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+                ins.adsbygoogle(style="display:inline-block;width:728px;height:90px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="2940132661")
+                script.
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+        div.col-md-2.visible-md.visible-lg
+          div.sidebar#nav(data-spy="affix", data-offset-top="500")
             ul.nav
               for sectionname in sectionnames
                 - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
@@ -81,6 +86,11 @@ html(lang='en')
                     for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
                       li
                         a(href='#'+articleId(item))=item.metadata['title']
+            div.sideadvert
+              script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+              ins.adsbygoogle(style="display:inline-block;width:125px;height:125px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="7370332261")
+              script.
+                (adsbygoogle = window.adsbygoogle || []).push({});
     footer
       div.container
         div.row
