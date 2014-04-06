@@ -3,7 +3,7 @@
 	var flickrelements = $(document).find('.flickrslideshow'),
 		galleryId = 0,
 		imagethumbTemplate = function (galleryId) {
-			return '<div class="col-xs-3 col-sm-3 col-md-2">' +
+			return '<div class="col-xs-6 col-sm-3 col-md-2">' +
 				   '<a href="" rel="'+ galleryId + '" class="fancybox thumbnail loading">'+
 				   '<img src="images/FFFFFF-0.png" width=150 height=150 alt="">'+
 				   '</a>'+

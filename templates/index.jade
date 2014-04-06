@@ -3,8 +3,9 @@ extends layout
 block page-header
   div.carousel.slide#jumbotron(data-ride="carousel")
     div.carousel-title
-      h1=locals.name
-      p=locals.description
+      h1.hidden-xs=locals.name
+      p.hidden-xs=locals.description
+      p.visible-xs=locals.name
     ol.carousel-indicators
       li.active(data-target="#jumbotron" data-slide-to="0")
       li(data-target="#jumbotron" data-slide-to="1")
@@ -55,9 +56,14 @@ block page-content
             h3(id=articleId(item))= item.metadata['title']
             section!= item.html
         div.row
-          div.col-md-12.sectionadvert
+          div.col-md-12.sectionadvert.hidden-xs
             script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
             ins.adsbygoogle(style="display:inline-block;width:728px;height:90px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="2940132661")
+            script.
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          div.col-md-12.sectionadvert.visible-xs
+            script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+            ins.adsbygoogle(style="display:inline-block;width:234px;height:60px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="7235574660")
             script.
               (adsbygoogle = window.adsbygoogle || []).push({});
     div.col-md-2.visible-md.visible-lg
