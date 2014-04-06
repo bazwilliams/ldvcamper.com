@@ -1,106 +1,85 @@
-- var sectionnames = page.metadata['sectionnames']
-- var metadataTitle = function (item) { return item.metadata['title'] }
-- var metadataOrder = function (item) { return item.metadata['order'] }
-- var articleId = function (item) { return (item.metadata['section'] + item.metadata['title']).replace(/\s/g, ''); }
-doctype html
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
-    meta(name='viewport', content='width=device-width')
-    title= locals.name
-    link(rel='stylesheet', href='css/bootstrap.min.css')
-    link(rel='stylesheet', href='css/custom.css')
-    link(rel="stylesheet", href="fancybox/jquery.fancybox.css", type="text/css", media="screen")
-    script(type='text/javascript', src='js/jquery-2.1.0.min.js')
-    script(type='text/javascript', src='js/underscore-min.js')
-    script(type='text/javascript', src='js/bootstrap.min.js')
-    script(type='text/javascript', src='fancybox/jquery.fancybox.pack.js')
-  body(data-spy="scroll" data-target="#nav")
-        div.carousel.slide#jumbotron(data-ride="carousel")
-          div.carousel-title
-            h1=locals.name
-            p=locals.description
-          ol.carousel-indicators
-            li.active(data-target="#jumbotron" data-slide-to="0")
-            li(data-target="#jumbotron" data-slide-to="1")
-            li(data-target="#jumbotron" data-slide-to="2")
-            li(data-target="#jumbotron" data-slide-to="3")
-            li(data-target="#jumbotron" data-slide-to="4")
-            li(data-target="#jumbotron" data-slide-to="5")
-            li(data-target="#jumbotron" data-slide-to="6")
-            li(data-target="#jumbotron" data-slide-to="7")
-            li(data-target="#jumbotron" data-slide-to="8")
-            li(data-target="#jumbotron" data-slide-to="9")
-            li(data-target="#jumbotron" data-slide-to="10")
-          div.carousel-inner
-            div.item.active
-              img(src="images/jumbotron/ldvcamper-jumbotron-12.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-2.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-10.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-3.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-4.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-5.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-6.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-7.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-8.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-9.jpg")
-            div.item
-              img(src="images/jumbotron/ldvcamper-jumbotron-11.jpg")
-          a.left.carousel-control(href="#jumbotron", data-slide="prev")
-            span.glyphicon.glyphicon-chevron-left
-          a.right.carousel-control(href="#jumbotron", data-slide="next")
-            span.glyphicon.glyphicon-chevron-right
-    div.container
-      div.row
-        div.col-md-10
+extends layout
+
+block page-header
+  div.carousel.slide#jumbotron(data-ride="carousel")
+    div.carousel-title
+      h1=locals.name
+      p=locals.description
+    ol.carousel-indicators
+      li.active(data-target="#jumbotron" data-slide-to="0")
+      li(data-target="#jumbotron" data-slide-to="1")
+      li(data-target="#jumbotron" data-slide-to="2")
+      li(data-target="#jumbotron" data-slide-to="3")
+      li(data-target="#jumbotron" data-slide-to="4")
+      li(data-target="#jumbotron" data-slide-to="5")
+      li(data-target="#jumbotron" data-slide-to="6")
+      li(data-target="#jumbotron" data-slide-to="7")
+      li(data-target="#jumbotron" data-slide-to="8")
+      li(data-target="#jumbotron" data-slide-to="9")
+      li(data-target="#jumbotron" data-slide-to="10")
+    div.carousel-inner
+      div.item.active
+        img(src="images/jumbotron/ldvcamper-jumbotron-12.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-2.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-10.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-3.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-4.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-5.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-6.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-7.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-8.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-9.jpg")
+      div.item
+        img(src="images/jumbotron/ldvcamper-jumbotron-11.jpg")
+    a.left.carousel-control(href="#jumbotron", data-slide="prev")
+      span.glyphicon.glyphicon-chevron-left
+    a.right.carousel-control(href="#jumbotron", data-slide="next")
+      span.glyphicon.glyphicon-chevron-right
+
+block page-content
+  div.row
+    div.col-md-10
+      for sectionname in sectionnames
+        - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
+        h2(id=sectionname.replace(/\s/g, ''))= sectionname
+          for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
+            h3(id=articleId(item))= item.metadata['title']
+            section!= item.html
+        div.row
+          div.col-md-12.sectionadvert
+            script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+            ins.adsbygoogle(style="display:inline-block;width:728px;height:90px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="2940132661")
+            script.
+              (adsbygoogle = window.adsbygoogle || []).push({});
+    div.col-md-2.visible-md.visible-lg
+      div.sidebar#nav(data-spy="affix", data-offset-top="500")
+        ul.nav
           for sectionname in sectionnames
             - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
-            h2(id=sectionname.replace(/\s/g, ''))= sectionname
-              for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
-                h3(id=articleId(item))= item.metadata['title']
-                section!= item.html
-            div.row
-              div.col-md-12.sectionadvert
-                script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
-                ins.adsbygoogle(style="display:inline-block;width:728px;height:90px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="2940132661")
-                script.
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-        div.col-md-2.visible-md.visible-lg
-          div.sidebar#nav(data-spy="affix", data-offset-top="500")
-            ul.nav
-              for sectionname in sectionnames
-                - var bySectionName = function (item) { return item.metadata['section'] === sectionname }
-                li
-                  a(href='#'+sectionname.replace(/\s/g, ''))= sectionname
-                  ul.nav
-                    for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
-                      li
-                        a(href='#'+articleId(item))=item.metadata['title']
-            div.sideadvert
-              script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
-              ins.adsbygoogle(style="display:inline-block;width:125px;height:125px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="7370332261")
-              script.
-                (adsbygoogle = window.adsbygoogle || []).push({});
-    footer
-      div.container
-        div.row
-          section
-            p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-              a(href='https://github.com/jnordberg/wintersmith') Wintersmith 
-              &mdash; website source on&nbsp;
-              a(href='https://github.com/bazwilliams/ldvcamper.com') Github
-  script(type='text/javascript', src='js/parseflickr.js')
-  script(type='text/javascript').
-    $(document).ready(function() {
-      $(".fancybox").fancybox();
-    });
+            li
+              a(href='#'+sectionname.replace(/\s/g, ''))= sectionname
+              ul.nav
+                for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
+                  li
+                    a(href='#'+articleId(item))=item.metadata['title']
+        div.sideadvert
+          script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+          ins.adsbygoogle(style="display:inline-block;width:125px;height:125px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="7370332261")
+          script.
+            (adsbygoogle = window.adsbygoogle || []).push({});
+
+block page-footer
+  section
+    p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
+      a(href='https://github.com/jnordberg/wintersmith') Wintersmith 
+      &mdash; website source on&nbsp;
+      a(href='https://github.com/bazwilliams/ldvcamper.com') Github

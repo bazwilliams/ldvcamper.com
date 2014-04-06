@@ -22,7 +22,7 @@ We needed to use the van before deciding how to finish the bathroom door, so we 
 	<div class="col-md-6">
 		<div class="thumbnail">
 			<div class="clearfix">
-				<video controls="controls" class="col-md-12 video">
+				<video controls="controls" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 video">
 					<source type="video/mp4" src="videos/slidingdoor.mp4">
 					<source type="video/ogg" src="videos/slidingdoor.ogv">
 				Your browser does not support the video tag.

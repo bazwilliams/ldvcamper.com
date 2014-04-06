@@ -24,7 +24,7 @@ Barry then continued with the 3D max version by modeling the virtual van accurat
 	<div class="col-md-6">
 		<div class="thumbnail">
 			<div class="clearfix">
-			<video controls="controls" class="col-md-12 video">
+			<video controls="controls" class="col-xs-12 col-sm-12 col-md-12 col-lg-12  video">
 				<source type="video/mp4" src="videos/beddesignframe.mp4">
 				<source type="video/ogg" src="videos/beddesignframe.ogv">
 				Your browser does not support the video tag.
@@ -38,7 +38,7 @@ Barry then continued with the 3D max version by modeling the virtual van accurat
 	<div class="col-md-6">
 		<div class="thumbnail">
 			<div class="clearfix">
-			<video controls="controls" class="col-md-12 video">
+			<video controls="controls" class="col-xs-12 col-sm-12 col-md-12 col-lg-12  video">
 				<source type="video/mp4" src="videos/beddesignwithcushions.mp4">
 				<source type="video/ogg" src="videos/beddesignwithcushions.ogv">
 				Your browser does not support the video tag.
