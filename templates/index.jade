@@ -56,14 +56,19 @@ block page-content
             h3(id=articleId(item))= item.metadata['title']
             section!= item.html
         div.row
-          div.col-md-12.sectionadvert.hidden-xs
+          div.col-md-12.sectionadvert.hidden-xs.hidden-sm
             script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
             ins.adsbygoogle(style="display:inline-block;width:728px;height:90px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="2940132661")
             script.
               (adsbygoogle = window.adsbygoogle || []).push({});
-          div.col-md-12.sectionadvert.visible-xs
+          div.col-md-12.sectionadvert.visible-xs.hidden-sm
             script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
             ins.adsbygoogle(style="display:inline-block;width:234px;height:60px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="7235574660")
+            script.
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          div.col-md-12.sectionadvert.hidden-xs.visible-sm
+            script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+            ins.adsbygoogle(style="display:inline-block;width:320px;height:50px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="6956373067")
             script.
               (adsbygoogle = window.adsbygoogle || []).push({});
     div.col-md-2.visible-md.visible-lg
