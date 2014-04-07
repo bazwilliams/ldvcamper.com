@@ -15,7 +15,7 @@ To begin with we took the bathroom door from the caravan and resized it to fit o
 
 [QD Plastics](http://www.qdplastics.co.uk "Q D Plastics")
 
-New Bathroom
+After a few years, we decided to replace all the parts of the bathroom. We decided to remove the old shower and shower basin as it was hardly ever used. We found a second hand caravan parts dealer nearby who had salvaged a nearly new sink and vanity unit complete with tap and long shelf from a recently storm damaged caravan. Whilst looking at photographs I enquired about the toilet which he also had. I agreed and picked them up the following weekend and unbelievably, the sink unit shelf fit perfectly lengthwise without any modification. The new toilet required some effort to accomodate the different shaped cartridge, cutting and refitting new wallboard solved this problem. We placed a sheet of white hardboard inside the bathroom underneath the shelf and behind the toilet to hide the old cartridge access which had to move from its previous position. Above the new sink and vanity unit we fitted a large perspex mirror to hide some of the marks from the previous unit. On the opposite side we fitted a series of pockets for medicines, plasters and other things, again to hide marks from the previous unit. We purchased an offcut of lino (2m x 1m) for a few pounds to fit to the floor. 
 
 <div class="flickrslideshow" data-ids="[7154368366,7154364070]"]>
 </div>
