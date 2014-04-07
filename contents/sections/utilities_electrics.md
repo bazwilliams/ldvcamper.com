@@ -20,7 +20,7 @@ We installed the 240V hookup from the caravan with a garage consumer unit to hou
 <div class="flickrslideshow" data-ids="[2413795589,2414622198,2414626950]">
 </div>
 
-After a journey to Spain we realised the fridge needed some assistance, so we installed a 12V fan which required wiring to be routed after furniture had been fitted. We were able to route this through all of the kitchen unit and in front of the bathroom door by use of some edging strip where it entered the wardrobe and the wiring for the water heater control panel.
+After a journey to Spain we realised the fridge needed some assistance, so we installed a 'Convoy' 12V thermostatically controlled cooling fan kit which required wiring to be routed after furniture had been fitted. We were able to route this through all of the kitchen unit and in front of the bathroom door by use of some edging strip where it entered the wardrobe and the wiring for the water heater control panel.
 
 After discovering a good deal for a Solar panel, we purchased it and fitted it to the roof along with the solar regulator under the bonnet next to the leisure battery with a direct fused (7.5A) connection. The solar regulator specifically stated we shouldn't use it when another charger was running which complicated use with the van alternator. 
 
