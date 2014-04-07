@@ -18,36 +18,3 @@ Barry then continued with the 3D max version by modeling the virtual van accurat
 
 <div class="flickrslideshow" data-ids="[6869286081, 6869288555]">
 </div>
-
-<div class="row">
-	<div class="col-md-12">
-	<div class="col-md-6">
-		<div class="thumbnail">
-			<div class="clearfix">
-			<video controls="controls" class="col-xs-12 col-sm-12 col-md-12 col-lg-12  video">
-				<source type="video/mp4" src="videos/beddesignframe.mp4">
-				<source type="video/ogg" src="videos/beddesignframe.ogv">
-				Your browser does not support the video tag.
-			</video>
-			</div>
-			<div class="caption">
-			<small>Rendering of how the bed frame could work</small>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-6">
-		<div class="thumbnail">
-			<div class="clearfix">
-			<video controls="controls" class="col-xs-12 col-sm-12 col-md-12 col-lg-12  video">
-				<source type="video/mp4" src="videos/beddesignwithcushions.mp4">
-				<source type="video/ogg" src="videos/beddesignwithcushions.ogv">
-				Your browser does not support the video tag.
-			</video>
-			</div>
-			<div class="caption">
-			<small>Rendering of how the cushions could fit</small>
-			</div>
-		</div>
-	</div>
-	</div>
-</div>

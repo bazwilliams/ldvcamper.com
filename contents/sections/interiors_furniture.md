@@ -13,6 +13,39 @@ We halved one of the bench seats to make two seats facing each other. They were 
 <div class="flickrslideshow" data-ids="[868710601,869564152,869579454]">
 </div>
 
+<div class="row">
+	<div class="col-md-12">
+	<div class="col-md-6">
+		<div class="thumbnail">
+			<div class="clearfix">
+			<video controls="controls" class="col-xs-12 col-sm-12 col-md-12 col-lg-12  video">
+				<source type="video/mp4" src="videos/beddesignframe.mp4">
+				<source type="video/ogg" src="videos/beddesignframe.ogv">
+				Your browser does not support the video tag.
+			</video>
+			</div>
+			<div class="caption">
+			<small>Rendering of how the bed frame could work</small>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="thumbnail">
+			<div class="clearfix">
+			<video controls="controls" class="col-xs-12 col-sm-12 col-md-12 col-lg-12  video">
+				<source type="video/mp4" src="videos/beddesignwithcushions.mp4">
+				<source type="video/ogg" src="videos/beddesignwithcushions.ogv">
+				Your browser does not support the video tag.
+			</video>
+			</div>
+			<div class="caption">
+			<small>Rendering of how the cushions could fit</small>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+
 The aisle between the kitchen and dining area, it needs to be wide enough for 2 people to walk past each other, yet small enough to allow a bed to be extend across easily.
 
 <div class="flickrslideshow" data-ids="[868713571]">
