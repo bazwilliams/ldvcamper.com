@@ -1,6 +1,7 @@
 extends layout
 
 block page-header
+  - var headerimages = page.metadata['headerimages']
   div.carousel.slide#jumbotron(data-ride="carousel")
     div.carousel-title
       h1.hidden-xs=locals.name
@@ -23,6 +24,10 @@ block page-header
       span.glyphicon.glyphicon-chevron-right
 
 block page-content
+  - var sectionnames = page.metadata['sectionnames']
+  - var metadataTitle = function (item) { return item.metadata['title'] }
+  - var metadataOrder = function (item) { return item.metadata['order'] }
+  - var articleId = function (item) { return (item.metadata['section'] + item.metadata['title']).replace(/\s/g, ''); }
   div.row
     div.col-md-10
       for sectionname in sectionnames
