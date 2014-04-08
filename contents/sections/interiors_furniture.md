@@ -10,9 +10,6 @@ We reused the furniture from the van, however it would never be a straight swap 
 
 We halved one of the bench seats to make two seats facing each other. They were positioned at a distance to allow the table we purchased to fit in between which in future would form part of the bed. 
 
-<div class="flickrslideshow" data-ids="[868710601,869564152,869579454]">
-</div>
-
 <div class="row">
 	<div class="col-md-12">
 	<div class="col-md-6">
@@ -46,7 +43,10 @@ We halved one of the bench seats to make two seats facing each other. They were 
 	</div>
 </div>
 
-The aisle between the kitchen and dining area, it needs to be wide enough for 2 people to walk past each other, yet small enough to allow a bed to be extend across easily.
+<div class="flickrslideshow" data-ids="[868710601,869564152,869579454]">
+</div>
+
+The aisle between the kitchen and dining area needed to be wide enough for 2 people to walk past each other, yet small enough to allow a bed to be extend across easily.
 
 <div class="flickrslideshow" data-ids="[868713571]">
 </div>

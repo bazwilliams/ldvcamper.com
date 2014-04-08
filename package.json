@@ -4,5 +4,10 @@
     "underscore": "1.4.x",
     "typogr": "0.5.x"
   },
-  "repository": "none"
+  "repository": "none",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-wintersmith": "0.0.2",
+    "grunt-contrib-watch": "~0.6.1"
+  }
 }
