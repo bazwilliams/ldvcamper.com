@@ -12,8 +12,3 @@ We eventually decided to replace the two LDV seats with more comfortable swivell
 
 <div class="flickrslideshow" data-ids="[7657940926,7657937624,7657933230]">
 </div>
-
-We wanted to store the outdoor gear in the back of van accessible through the back doors, this would be the water filling and waste pipes; electric hookup cables; the gas bottles; camping chairs; tables and any other outdoor equipment. Also accessible from within the back doors is the cartridge toilet and flush access.
-
-<div class="flickrslideshow" data-ids="[869515620,868672101,2452327373,2453156270,2452328989]">
-</div>

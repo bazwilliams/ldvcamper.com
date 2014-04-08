@@ -51,3 +51,8 @@ We purchased some thin wood to sandwich between wallboards to construct partitio
  
 <div class="flickrslideshow" data-ids="[869440238,869442444,869450138,868608095,868611555,869460986,868619567,869468706,868625595,868628757,868631825,869480788,869483822,869486856,868645103,868648593,868652713,869501674,869506148,868675191,869512770]">
 </div>
+
+We wanted to store the outdoor gear in the back of van accessible through the back doors, this would be the water filling and waste pipes; electric hookup cables; the gas bottles; camping chairs; tables and any other outdoor equipment. Also accessible from within the back doors is the cartridge toilet and flush access.
+
+<div class="flickrslideshow" data-ids="[869515620,868672101,2452327373,2453156270,2452328989]">
+</div>
