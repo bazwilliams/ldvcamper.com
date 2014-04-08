@@ -12,8 +12,6 @@ The kitchen unit from the caravan fitted perfectly length ways, but we had to cu
 
 We wanted a large bed to comfortably accomodate two adults with a decent length. To fit the original requirements of a fixed table you could sit around we designed a system which could be a bench seat, a central table and two single chairs facing each other along with a fully flat bed. 
 
-We halved one of the bench seats from the caravan to make two seats facing each other. They were positioned at a distance to allow the table we purchased to fit in between which in future would form part of the bed. 
-
 <div class="row">
 	<div class="col-md-12">
 	<div class="col-md-6">
@@ -47,6 +45,8 @@ We halved one of the bench seats from the caravan to make two seats facing each 
 	</div>
 </div>
 
+We halved one of the bench seats from the caravan to make two seats facing each other. They were positioned at a distance to allow the table we purchased to fit in between which in future would form part of the bed. 
+
 <div class="flickrslideshow" data-ids="[868710601,869564152,869579454]">
 </div>
 
@@ -60,17 +60,12 @@ There is a minimum distance between gas burners on a hob and combustible materia
 <div class="flickrslideshow" data-ids="[2452312953,2452317455,2453150530]">
 </div>
 
-Here is the plan for the replacement bed, this was designed after 2 years usage of the previous (temporary) system. We specifically tackled the problematic and inconvenient features of the old style one.
+Here is the plan for the replacement bed, this was designed after 2 years usage of the previous (temporary) system. We tackled the problematic and inconvenient features of the old style one. Specifically the ability to easily pull it out without too much effort, to make it completely flat across tables and pull out sections and to avoid having to store a table (i.e. incorporate it within the design). 
 
 <div class="flickrslideshow" data-ids="[6870784953, 6869556157, 6869556457, 6869556783, 6869557041, 7728041870]">
 </div>
 
-New Bed
+The new bed was finally assembled, the original seat frames were reinforced tops removed and slats were fitted. The pull out sections were assembled with plenty of glue, screws and steel reinforcing. 
 
 <div class="flickrslideshow" data-ids="[5031430614,5031457648]">
-</div>
-
-New Kitchen Tap
-
-<div class="flickrslideshow" data-ids="[7311108940]">
 </div>

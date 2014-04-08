@@ -104,3 +104,8 @@ video.video {
 .sidebar {
   margin-top: 20px;
 }
+.fancybox-title-float-wrap > .child {
+  white-space: normal !important;
+  margin-left: -75% !important;
+  margin-right: -175% !important;
+}

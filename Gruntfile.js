@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 	    },
 	    watch: {
 		  scripts: {
-		    files: ['**/*.js', '**/*.json', '**/*.md', '**/*.jade'],
+		    files: ['**/*.js', '**/*.json', '**/*.md', '**/*.jade', '**/*.css'],
 		    tasks: ['wintersmith'],
 		    options: {
 		      spawn: false,

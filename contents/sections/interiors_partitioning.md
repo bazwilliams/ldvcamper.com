@@ -11,7 +11,10 @@ Combined with the fixed size shower based extracted from the caravan, we had the
 
 When installing the seats we had to make sure the fresh water container would fit under one seat and that the gas water heater would fit under the other as we didn't want the fresh water tank outside the living area. Louise's dad cut down the caravan seat and made up additional supports for bench mode and bed mode. 
 
-We needed to use the van before deciding how to finish the bathroom door, so we installed the one used from the caravan, unfortunately this was a little too big and made it impossible to open when the bed was down. Over the winter we had the bathroom door trimmed and cut into two halves and hinged them together to make a bi-fold door. The door looked quite bland so we decided to put mirrored acrylic plastic on each side.
+
+We needed to use the van before deciding how to finish the bathroom door so to begin with we took the bathroom door from the caravan and resized it to fit over the new bathroom door. On the first night we realised it collided with the bed out so we couldn't get into the bathroom when the bed was down! 
+
+We therefore opted for a bifolding door. The door looked quite bland so we decided to fit mirrored acrylic plastic on each side. 
 
 <div class="flickrslideshow" data-ids="[6869289155, 6869289299]">
 </div>
@@ -33,6 +36,15 @@ We needed to use the van before deciding how to finish the bathroom door, so we 
 		</div>
 	</div>
 	</div>
+</div>
+
+Over the winter we had the bathroom door trimmed and cut into two halves and hinged them together to make a bi-fold door
+
+We ordered some plastic mirrors from a local company ([QD Plastics](http://www.qdplastics.co.uk "Q D Plastics")) which we stuck to the bifold doors with Sikaflex. The back of the doors were rebuilt using the bathroom wallboard material rather than the original wood effect. We fitted a matching cupboard door handle to the bathroom door for consistency throughout the van. 
+
+We found the mirrors warped in heat when we holidayed in Spain, so these were later reattached inside a wooden frame so they could expand and contract. Additionally white PVC plastic was fitted around the two bifolds.
+
+<div class="flickrslideshow" data-ids="[2135327994,2134548681,2135329156,2452316503]">
 </div>
 
 We purchased some thin wood to sandwich between wallboards to construct partition walls for the wardrobe and bathroom. The bathroom was sized to match the shower basin we recycled from the caravan and the wardrobe sized to match the available room ensuring one of the caravan cupboard doors could be used. We used thicker wood to form a more solid wall between the rear doors and the bathroom.
