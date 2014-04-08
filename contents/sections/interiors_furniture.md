@@ -3,12 +3,16 @@ section: Interiors
 title: Furniture Modification
 ---
 
-We reused the furniture from the van, however it would never be a straight swap so modifications were required, the kitchen unit was altered so it was flush (originally the fridge, sink  and hob were recessed slightly. 
+We reused the furniture from the van, however it would never be a straight swap so modifications were required. 
+
+The kitchen unit from the caravan fitted perfectly length ways, but we had to cut down the width and make it flush (originally the fridge, sink  and hob were recessed slightly). We didn't want to buy a brand new worktop because we felt it may get damaged during the build, so we obtained a scrap wardrobe from IKEA and cut one of the sides to size. The unit has been designed to allow the worktop to be removed and replaced after it has been installed.
 
 <div class="flickrslideshow" data-ids="[1130781103,868707741,868702373,868721373,868726771,1123570337]">
 </div>
 
-We halved one of the bench seats to make two seats facing each other. They were positioned at a distance to allow the table we purchased to fit in between which in future would form part of the bed. 
+We wanted a large bed to comfortably accomodate two adults with a decent length. To fit the original requirements of a fixed table you could sit around we designed a system which could be a bench seat, a central table and two single chairs facing each other along with a fully flat bed. 
+
+We halved one of the bench seats from the caravan to make two seats facing each other. They were positioned at a distance to allow the table we purchased to fit in between which in future would form part of the bed. 
 
 <div class="row">
 	<div class="col-md-12">
