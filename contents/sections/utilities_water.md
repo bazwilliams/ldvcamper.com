@@ -34,3 +34,6 @@ After a few years when we replaced the bathroom, the tap unit that came with the
 </div>
 
 A year later we then added a water gauge to the tank through the same hole the original sub pump was fitted, we measured the depth of the tank and cut the three metal sensor prongs to match 3/4 full, 1/2 full and 1/4 full screwed it into the widened hole and sikaflexed it in place. The indicator panel was fitted next to the pump isolator switch in the over cab cupboard. 
+
+<div class="flickrslideshow" data-ids="[13963050706]">
+</div>
