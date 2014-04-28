@@ -1,5 +1,20 @@
 {
   "template": "index.jade",
   "sectionnames": ["Our Camper", "Panel Van Changes", "Interiors", "Utilities"],
-  "headerimages": ["images/jumbotron/ldvcamper-jumbotron-12.jpg", "images/jumbotron/ldvcamper-jumbotron-2.jpg", "images/jumbotron/ldvcamper-jumbotron-10.jpg", "images/jumbotron/ldvcamper-jumbotron-3.jpg", "images/jumbotron/ldvcamper-jumbotron-4.jpg", "images/jumbotron/ldvcamper-jumbotron-5.jpg", "images/jumbotron/ldvcamper-jumbotron-6.jpg", "images/jumbotron/ldvcamper-jumbotron-7.jpg", "images/jumbotron/ldvcamper-jumbotron-8.jpg", "images/jumbotron/ldvcamper-jumbotron-9.jpg", "images/jumbotron/ldvcamper-jumbotron-11.jpg"]
+  "headerimages": [
+    "images/jumbotron/ldvcamper-jumbotron-12.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-14.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-2.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-10.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-13.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-3.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-4.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-15.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-5.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-6.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-7.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-8.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-9.jpg",
+    "images/jumbotron/ldvcamper-jumbotron-11.jpg"
+  ]
 }
