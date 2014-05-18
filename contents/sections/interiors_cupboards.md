@@ -30,5 +30,5 @@ For strength, these are screwed and glued onto the wall at the back, the bathroo
 
 The cupboard over the dinette needed to be the height of the over cab cupboard so it gave the appearance of wrapping around that corner, it also needed to be deep enough to hide the new solar panel fitted to the roof and wide enough to fit between the wardrobe and the cab. Once measurements and heights were known, the frame was manufactured from existing caravan cupboard frames with additional framework to support the increased width and depth. It was again faced with the IKEA wardrobe backing and fitted with the cupboards from the caravan and new handles. The floor of the cupboard was a carefully cut piece of white hardboard which had to follow each curve of the van. The cupboard was also attached to the roof ribs and side walls with screws and much sikaflex. Within the floor of this cupboard we fitted 3 LED downlights switched at the end. One switch controls the central light and one switch controls the two outer lights. 
 
-<div class="flickrslideshow" data-ids="[2740448481,2741286656,2740457719,3426851926,3426041991,13982986751]">
+<div class="flickrslideshow" data-ids="[2655469374, 2740448481,2741286656,2740457719,3426851926,3426041991,13982986751]">
 </div>
