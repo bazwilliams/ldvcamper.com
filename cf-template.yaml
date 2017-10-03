@@ -1,0 +1,34 @@
+Description: "ldvcamper.com website"
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  hostedZone:
+    Type: "AWS::Route53::HostedZone"
+    Properties:
+      Name: ldvcamper.com
+
+  bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+
+  bucketPolicy:
+    Type: "AWS::S3::BucketPolicy"
+    Properties: 
+      Bucket: !Ref bucket
+      PolicyDocument:
+        Statement: 
+        - Action: 
+          - "s3:GetObject"
+          Effect: "Allow"
+          Resource: !Sub arn:aws:s3:::${bucket}/*
+          Principal: "*"
+
+Outputs:
+  websiteUrl:
+    Description: Url to the ldvcamper.com website
+    Value: !GetAtt bucket.WebsiteURL
+    Export:
+      Name: ldvcampervan-website-url

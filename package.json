@@ -1,13 +1,14 @@
 {
   "dependencies": {
     "moment": "2.3.x",
-    "underscore": "1.4.x",
-    "typogr": "0.5.x"
+    "typogr": "0.5.x",
+    "underscore": "1.4.x"
   },
   "repository": "none",
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-wintersmith": "0.0.2",
-    "grunt-contrib-watch": "~0.6.1"
+    "grunt-cli": "^1.2.0",    
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-wintersmith": "0.0.2"
   }
 }
