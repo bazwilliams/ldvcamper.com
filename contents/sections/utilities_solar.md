@@ -21,8 +21,5 @@ The regulator is then connected directly to the battery via a 7.5A fuse.
 
 The Phocus' solar regulator manual specifically stated we shouldn't have it connected when another charger was running which is why a relay is in use to deactivate the panel when our TEC3M detects the van battery is being charged. 
 
-<div class="flickrslideshow" data-ids="">
-</div>
-
 <div class="flickrslideshow" data-ids="[2655469374]">
 </div>
