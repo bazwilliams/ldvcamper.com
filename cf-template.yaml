@@ -1,0 +1,57 @@
+Description: "ldvcamper.com website"
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  hostedZone:
+    Type: "AWS::Route53::HostedZone"
+    Properties:
+      Name: ldvcamper.com
+
+  rootRecordSet:
+    Type: "AWS::Route53::RecordSet"
+    Properties:
+      Name: ldvcamper.com
+      AliasTarget:
+        DNSName: s3-website.eu-west-2.amazonaws.com
+        HostedZoneId: Z3GKZC51ZF0DB4
+      HostedZoneId: !Ref hostedZone
+      Type: A
+
+  wwwRecordSet:
+    Type: "AWS::Route53::RecordSet"
+    Properties:
+      Name: www.ldvcamper.com
+      AliasTarget:
+        DNSName: s3-website.eu-west-2.amazonaws.com
+        HostedZoneId: Z3GKZC51ZF0DB4
+      HostedZoneId: !Ref hostedZone
+      Type: A
+
+  rootBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: ldvcamper.com
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        RedirectAllRequestsTo:
+          HostName: www.ldvcamper.com
+
+  bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: www.ldvcamper.com
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+
+  bucketPolicy:
+    Type: "AWS::S3::BucketPolicy"
+    Properties: 
+      Bucket: !Ref bucket
+      PolicyDocument:
+        Statement: 
+        - Action: 
+          - "s3:GetObject"
+          Effect: "Allow"
+          Resource: !Sub arn:aws:s3:::${bucket}/*
+          Principal: "*"
