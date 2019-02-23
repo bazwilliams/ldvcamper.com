@@ -2,6 +2,53 @@ Description: "ldvcamper.com website"
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
+
+  rootDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Aliases:
+          - ldvcamper.com
+        DefaultCacheBehavior:
+          TargetOriginId: ldvcamper-origin
+          ViewerProtocolPolicy : redirect-to-https
+          ForwardedValues:
+            QueryString: false
+        DefaultRootObject: index.html
+        Enabled: True
+        Origins:
+          - DomainName: !GetAtt rootBucket.DomainName
+            Id: ldvcamper-origin
+            CustomOriginConfig:
+              OriginProtocolPolicy: http-only
+        ViewerCertificate:
+          SslSupportMethod: sni-only
+          MinimumProtocolVersion: TLSv1.2_2018
+          AcmCertificateArn:  arn:aws:acm:us-east-1:052088179028:certificate/02dd3ffa-c9bd-47f6-b893-c09e2a0b1b98
+
+  distribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Aliases:
+          - www.ldvcamper.com
+        DefaultCacheBehavior:
+          TargetOriginId: ldvcamper-origin
+          ViewerProtocolPolicy : redirect-to-https
+          ForwardedValues:
+            QueryString: false
+        DefaultRootObject: index.html
+        Enabled: True
+        Origins:
+          - DomainName: !GetAtt bucket.DomainName
+            Id: ldvcamper-origin
+            CustomOriginConfig:
+              OriginProtocolPolicy: http-only
+        ViewerCertificate:
+          SslSupportMethod: sni-only
+          MinimumProtocolVersion: TLSv1.2_2018
+          AcmCertificateArn:  arn:aws:acm:us-east-1:052088179028:certificate/02dd3ffa-c9bd-47f6-b893-c09e2a0b1b98
+
   hostedZone:
     Type: "AWS::Route53::HostedZone"
     Properties:
@@ -12,8 +59,8 @@ Resources:
     Properties:
       Name: ldvcamper.com
       AliasTarget:
-        DNSName: s3-website.eu-west-2.amazonaws.com
-        HostedZoneId: Z3GKZC51ZF0DB4
+        DNSName: !GetAtt distribution.DomainName
+        HostedZoneId: Z2FDTNDATAQYW2
       HostedZoneId: !Ref hostedZone
       Type: A
 
@@ -22,10 +69,40 @@ Resources:
     Properties:
       Name: www.ldvcamper.com
       AliasTarget:
-        DNSName: s3-website.eu-west-2.amazonaws.com
-        HostedZoneId: Z3GKZC51ZF0DB4
+        DNSName: !GetAtt distribution.DomainName
+        HostedZoneId: Z2FDTNDATAQYW2
       HostedZoneId: !Ref hostedZone
       Type: A
+
+  caaRecordSet:
+    Type: "AWS::Route53::RecordSet"
+    Properties:
+      Name: ldvcamper.com.
+      HostedZoneId: !Ref hostedZone
+      Type: CAA
+      TTL: 900
+      ResourceRecords:
+      - "0 issue \"amazon.com\""
+
+  cname0RecordSet:
+    Type: "AWS::Route53::RecordSet"
+    Properties:
+      Name: _b24e3f689210ae87fc83194031de0213.ldvcamper.com.
+      HostedZoneId: !Ref hostedZone
+      Type: CNAME
+      TTL: 900
+      ResourceRecords:
+      - "_123327d54259680ad48da150df4705ad.hkvuiqjoua.acm-validations.aws."
+
+  cname1RecordSet:
+    Type: "AWS::Route53::RecordSet"
+    Properties:
+      Name: _c13b549bc7834991ed2928d23e5d01e7.www.ldvcamper.com.
+      HostedZoneId: !Ref hostedZone
+      Type: CNAME
+      TTL: 900
+      ResourceRecords:
+      - "_c19abc0f6b711832b1d9b15ac47f0adc.hkvuiqjoua.acm-validations.aws."
 
   rootBucket:
     Type: "AWS::S3::Bucket"
