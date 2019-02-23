@@ -36,22 +36,6 @@ block page-content
           for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
             h3(id=articleId(item))= item.metadata['title']
             section!= item.html
-        div.row
-          div.col-md-12.sectionadvert.hidden-xs.hidden-sm
-            script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
-            ins.adsbygoogle(style="display:inline-block;width:728px;height:90px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="2940132661")
-            script.
-              (adsbygoogle = window.adsbygoogle || []).push({});
-          div.col-md-12.sectionadvert.visible-xs.hidden-sm
-            script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
-            ins.adsbygoogle(style="display:inline-block;width:234px;height:60px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="7235574660")
-            script.
-              (adsbygoogle = window.adsbygoogle || []).push({});
-          div.col-md-12.sectionadvert.hidden-xs.visible-sm
-            script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
-            ins.adsbygoogle(style="display:inline-block;width:320px;height:50px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="6956373067")
-            script.
-              (adsbygoogle = window.adsbygoogle || []).push({});
     div.col-md-2.visible-md.visible-lg
       div.sidebar#nav(data-spy="affix", data-offset-top="500")
         ul.nav
@@ -63,12 +47,6 @@ block page-content
                 for item in _.chain(contents['sections']).filter(bySectionName).sortBy(metadataOrder).value()
                   li
                     a(href='#'+articleId(item))=item.metadata['title']
-        div.sideadvert
-          script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
-          ins.adsbygoogle(style="display:inline-block;width:125px;height:125px", data-ad-client="ca-pub-7913617732679827", data-ad-slot="7370332261")
-          script.
-            (adsbygoogle = window.adsbygoogle || []).push({});
-
 block page-footer
   section
     p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
