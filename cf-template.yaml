@@ -3,34 +3,12 @@ AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
 
-  rootDistribution:
-    Type: AWS::CloudFront::Distribution
-    Properties:
-      DistributionConfig:
-        Aliases:
-          - ldvcamper.com
-        DefaultCacheBehavior:
-          TargetOriginId: ldvcamper-origin
-          ViewerProtocolPolicy : redirect-to-https
-          ForwardedValues:
-            QueryString: false
-        DefaultRootObject: index.html
-        Enabled: True
-        Origins:
-          - DomainName: !GetAtt rootBucket.DomainName
-            Id: ldvcamper-origin
-            CustomOriginConfig:
-              OriginProtocolPolicy: http-only
-        ViewerCertificate:
-          SslSupportMethod: sni-only
-          MinimumProtocolVersion: TLSv1.2_2018
-          AcmCertificateArn:  arn:aws:acm:us-east-1:052088179028:certificate/02dd3ffa-c9bd-47f6-b893-c09e2a0b1b98
-
   distribution:
     Type: AWS::CloudFront::Distribution
     Properties:
       DistributionConfig:
         Aliases:
+          - ldvcamper.com
           - www.ldvcamper.com
         DefaultCacheBehavior:
           TargetOriginId: ldvcamper-origin
