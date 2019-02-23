@@ -14,5 +14,5 @@ We found a second hand caravan parts dealer nearby who had salvaged a nearly new
 
 Unbelievably, the sink unit shelf fit perfectly lengthwise without any modification. The new toilet required some effort to accomodate the different shaped cassette, cutting and refitting new wallboard solved this problem. We placed a sheet of white hardboard inside the bathroom underneath the shelf and behind the toilet to hide the old cassette access which had to be moved from its previous position. Above the new sink and vanity unit we fitted a large perspex mirror to hide some of the marks from the previous unit. On the opposite wall we fitted a series of pockets for medicines, plasters and other things, again to hide marks from the previous unit. We purchased an offcut of lino (2m x 1m) from a local carpet store for a few pounds to fit to the floor. 
 
-<div class="flickrslideshow" data-ids="[7154368366,7154355142,7154364070,7359691578,7174462011]"]>
+<div class="flickrslideshow" data-ids="[7154368366,7154355142,7154364070,7359691578,7174462011]">
 </div>
